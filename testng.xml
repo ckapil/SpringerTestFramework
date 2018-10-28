@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Springer Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.sm.qa.ExtentReportListener.ExtentReportNG" />
+	</listeners>
+
+	<test name="Verify Client Journey for Search Functionality">
+		<classes>
+			<class name="com.sm.qa.tests.HomePageTest">
+				<methods>
+					<include name="verifySearchFunctinalityTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

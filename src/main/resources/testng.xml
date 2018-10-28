@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selling Manager Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.sm.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="SM App Test Cases">
+		<classes>
+			<class name="com.sm.qa.tests.LoginPageTest"></class>
+			<class name="com.sm.qa.tests.ListingPageTest"></class>
+		</classes>
+	</test>
+</suite>
